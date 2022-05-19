@@ -18,7 +18,7 @@ export default function Home() {
         <Link href="/BarcodeGenerator"><a >BarcodeGenerator</a></Link>
         <Link href="/BarcodeScanner"><a >BarcodeScanner</a></Link>
         <Link href="/Home"><a >Home</a></Link>
-        <a href="javascript:void(0);" className="icon" onclick="myFunction()">
+        <a href="javascript:void(0);" className="icon" onClick="myFunction()">
           <i className="fa fa-bars"></i>
         </a>
 
