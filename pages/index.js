@@ -11,15 +11,15 @@ export default function Home() {
   return (
     <div className={styles.container}>
 
-      <div class={styles.topnav} >
+      <div className={styles.topnav} >
         
         <Link href="/login"><a >LogIn</a></Link>
         <Link href="/about"><a >About</a></Link>
         <Link href="/BarcodeGenerator"><a >BarcodeGenerator</a></Link>
         <Link href="/BarcodeScanner"><a >BarcodeScanner</a></Link>
         <Link href="/Home"><a >Home</a></Link>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
+        <a href="javascript:void(0);" className="icon" onclick="myFunction()">
+          <i className="fa fa-bars"></i>
         </a>
 
       </div>

@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import "../../styles/Home.module.css";
 
- const login = () => {
+ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
