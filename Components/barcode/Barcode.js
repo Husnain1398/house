@@ -11,7 +11,7 @@ const BarcodeRenderer = props => {
 const Barcode = props => {
   return (
     <svg
-      className="barcode"
+      class="barcode"
       jsbarcode-format="CODE128"
       jsbarcode-value={props.value}
       jsbarcode-textmargin="0"

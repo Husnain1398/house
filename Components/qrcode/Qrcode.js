@@ -8,6 +8,7 @@ const Qrcode = props => {
     return (
         <>
             <QrReader
+            facingMode="rear"
                 onResult={(result, error) => {
                     if (!!result) {
                         setData(result?.text);

@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 import "../../styles/Home.module.css";
-export default function Login() {
+
+ const login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -12,11 +14,8 @@ export default function Login() {
   function handleSubmit(event) {
     event.preventDefault();
   }
-
-
   return (
-    
-    <div className="Login">
+<div className="Login">
       <Form onSubmit={handleSubmit}>
         <Form.Group size="lg" controlId="email">
           <Form.Label>Email</Form.Label>
@@ -35,12 +34,12 @@ export default function Login() {
             onChange={(e) => setPassword(e.target.value)}
           />
         </Form.Group>
-        <button block size="lg" type="submit" disabled={!validateForm()}>
+        <Button className="" block size="lg" type="submit" disabled={!validateForm()}>
           Login
-        </button>
+        </Button>
       </Form>
 
     </div>
-  
-  );
+  )
 }
+export default login;
