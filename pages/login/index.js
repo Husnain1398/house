@@ -42,4 +42,4 @@ import "../../styles/Home.module.css";
     </div>
   )
 }
-export default login;
+export default Login;

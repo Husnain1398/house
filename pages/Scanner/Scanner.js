@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Quagga from 'quagga'
 
-className Scanner extends Component {
+class Scanner extends Component {
   componentDidMount() {
     Quagga.init(
       {
