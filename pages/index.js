@@ -2,7 +2,7 @@
 import styles from '../styles/Home.module.css'
 import dynamic from 'next/dynamic'
 const Qrcode = 
-dynamic(() => import("../components/qrcode/Qrcode"), { ssr: false });
+dynamic(() => import("../Components/qrcode/Qrcode"), { ssr: false });
 
 
 export default function Home() {
