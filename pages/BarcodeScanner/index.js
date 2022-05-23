@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import Scanner from '../../Components/barcode/Scanner'
+  import React, { Component } from 'react'
+import Scanner from '../../src/Components/barcode/Scanner'
 
 class BarcodeScanner extends Component {
   state = {
